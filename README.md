@@ -27,3 +27,4 @@ Package.json : "dev": "nodemon backend/index.js",
 "start": "node backend/index.js"
 Backend : create index.js write backend script
 : Also connect mongoose with backend
+# Realtor
