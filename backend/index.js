@@ -1,3 +1,4 @@
+import cors from 'cors';
 import express from 'express';
 import mongoose from 'mongoose';
 import dotenv from 'dotenv';
@@ -16,6 +17,7 @@ mongoose
   });
 
 const app = express();
+app.use(cors());
 app.use(express.json());
 
 app.listen(3000, () => {
