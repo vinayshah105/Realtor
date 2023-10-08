@@ -7,7 +7,7 @@ const Header = () => {
       <div className="flex justify-between items-center max-w-6xl mx-auto p-3">
         <Link to="/">
           <img
-            src="../../public/logo.png"
+            src="/logo.png"
             alt="Realtor"
             className="h-10 sm:h-20 flex flex-wrap"
           />
@@ -22,17 +22,19 @@ const Header = () => {
         </form>
         <ul className="flex gap-4">
           <Link to="/">
-            <li className="hidden sm:inline text-blue-700 hover:underline me-3">
+            <li className="hidden sm:inline text-lg font-medium hover:underline me-3">
               Home
             </li>
           </Link>
           <Link to="/about">
-            <li className="hidden sm:inline  text-blue-700 hover:underline me-3">
+            <li className="hidden sm:inline text-lg font-medium hover:underline me-3">
               About
             </li>
           </Link>
-          <Link to="/signin">
-            <li className="text-blue-700 hover:underline me-3">Sign-In</li>
+          <Link to="/signup">
+            <li className="text-lg font-medium hover:underline me-3">
+              Sign-Up
+            </li>
           </Link>
         </ul>
       </div>

@@ -3,6 +3,7 @@
 @tailwind utilities;
 
 body {
+  background-color: rgb(241, 245, 241);
   font-family: 'Cinzel Decorative', cursive;
   font-family: 'Creepster', cursive;
   font-family: 'Fira Sans', sans-serif;
